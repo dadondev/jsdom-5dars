@@ -13,22 +13,25 @@
     </style>
   </head>
   <body
-    class="flex items-center justify-center bg-[length:auto_232px] bg-[url('./images/back-img.png')] bg-no-repeat"
+    class="flex items-center justify-center bg-[length:auto_232px] bg-[url('./images/back-img.png')] bg-no-repeat md:bg-contain"
   >
-    <div class="w-[327px] max-h-[527px] mx-auto bg-white rounded-lg p-6">
+    <div
+      class="w-[327px] max-h-[527px] mx-auto bg-white rounded-lg p-6 md:w-[600px] md:p-10"
+    >
       <div class="mb-6"><img src="./images/logo.png" alt="logo" /></div>
+
       <div>
         <div
-          class="pb-6 border-b border-[#F8EEFF] flex items-center justify-between gap-6 flex-col"
+          class="border-b border-[#F8EEFF] flex items-center justify-between gap-6 flex-col pt-6 md:items-start"
         >
           <div
-            class="card cursor-pointer hover:text-[rgba(173,40,235,1)] font-semibold flex items-center justify-between gap-6"
+            class="card cursor-pointer hover:text-[rgba(173,40,235,1)] font-semibold flex items-center justify-between gap-6 md:items-start"
           >
             <span class="text-inherit text-[18px]"
               >What is Frontend Mentor, and how will it help me?</span
-            ><img src="./images/minus.png" alt="plus" />
+            ><img src="./images/plus.png" alt="plus" />
           </div>
-          <div>
+          <div class="max-h-0 overflow-hidden transition">
             <p class="font-normal text-[#8B6990] text-base">
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
@@ -39,17 +42,36 @@
         </div>
 
         <div
-          class="pb-6 border-b border-[#F8EEFF] flex items-center justify-between gap-6 flex-col"
+          class="border-b border-[#F8EEFF] flex items-center justify-between gap-6 flex-col pt-6 md:items-start"
         >
           <div
-            class="card cursor-pointer hover:text-[rgba(173,40,235,1)] font-semibold flex items-center justify-between gap-6"
+            class="card cursor-pointer hover:text-[rgba(173,40,235,1)] font-semibold flex items-center justify-between gap-6 md:items-start"
           >
             <span class="text-inherit text-[18px]"
               >What is Frontend Mentor, and how will it help me?</span
-            ><img src="./images/minus.png" alt="plus" />
+            ><img src="./images/plus.png" alt="plus" />
           </div>
-          <div class="transition-all -translate-y-28 ">
-            <p class="hidden font-normal text-[#8B6990] text-base">
+          <div class="max-h-0 overflow-hidden transition">
+            <p class="font-normal text-[#8B6990] text-base">
+              Frontend Mentor offers realistic coding challenges to help
+              developers improve their frontend coding skills with projects in
+              HTML, CSS, and JavaScript. It’s suitable for all levels and ideal
+              for portfolio building.
+            </p>
+          </div>
+        </div>
+        <div
+          class="border-b border-[#F8EEFF] flex items-center justify-between gap-6 flex-col pt-6 md:items-start"
+        >
+          <div
+            class="card cursor-pointer hover:text-[rgba(173,40,235,1)] font-semibold flex items-center justify-between gap-6 md:items-start"
+          >
+            <span class="text-inherit text-[18px]"
+              >What is Frontend Mentor, and how will it help me?</span
+            ><img src="./images/plus.png" alt="plus" />
+          </div>
+          <div class="max-h-0 overflow-hidden transition">
+            <p class="font-normal text-[#8B6990] text-base">
               Frontend Mentor offers realistic coding challenges to help
               developers improve their frontend coding skills with projects in
               HTML, CSS, and JavaScript. It’s suitable for all levels and ideal

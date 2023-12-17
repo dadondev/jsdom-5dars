@@ -1,18 +1,13 @@
 let allCards = document.querySelectorAll(".card");
 
-// allCards.forEach((card) => {
-//   allCards.forEach((event) => {
-//     event.addEventListener("click", () => {
-//       if (event == card) {
-//         if (event.nextElementSibling) {
-//           event.nextElementSibling.classList.remove("hidden");
-//           event.nextElementSibling.classList.add("block", "transition-all");
-//           console.log(event.nextElementSibling);
-//         }
-//       } else {
-//         event.nextElementSibling.classList.remove("block");
-//         event.nextElementSibling.classList.add("hidden");
-//       }
-//     });
-//   });
-// });
+allCards.forEach((card) => {
+  allCards.forEach((crad1) => {
+    crad1.addEventListener("click", () => {
+      if (card == crad1) {
+        card.nextElementSibling.classList.add("max-h-[400px]");
+      } else {
+        card.nextElementSibling.classList.remove("max-h-[400px]");
+      }
+    });
+  });
+});
